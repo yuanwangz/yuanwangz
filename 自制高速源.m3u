@@ -1,23 +1,23 @@
 #EXTM3U
 
 #EXTINF:-1 logo="" group-title="" ,CCTV1综合
-http://111.20.33.70/PLTV/88888893/224/3221226010/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000301/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV2财经
-http://111.20.33.70/PLTV/88888893/224/3221226195/index.m3u8
+http://39.134.32.103:6610/270000001111/1110000302/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV3综艺
-http://111.20.33.70/PLTV/88888893/224/3221226397/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000303/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV4国际
-http://111.20.33.70/PLTV/88888893/224/3221226191/index.m3u8
+http://39.135.138.60:18890/PLTV/88888910/224/3221225621/index.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV5体育
-http://111.20.33.70/PLTV/88888893/224/3221226395/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000305/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV5+赛事
-http://111.20.33.70/PLTV/88888893/224/3221226221/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000306/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV6电影
-http://111.20.33.70/PLTV/88888893/224/3221226393/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000307/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV7军事
-http://111.20.33.70/PLTV/88888893/224/3221226192/index.m3u8
+http://125.40.191.58:9901/tsfile/live/1006_1.m3u8?blog.ntnas.top
 #EXTINF:-1 logo="" group-title="" ,CCTV8电视剧
-http://111.20.33.70/PLTV/88888893/224/3221226012/index.m3u8
+http://39.134.32.108:6610/270000001111/1110000309/index.m3u8?IASHttpSessionId=OTT
 #EXTINF:-1 logo="" group-title="" ,CCTV9记录
 http://112.19.214.90:8883/tsfile/live/0009_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV10科教
@@ -33,7 +33,7 @@ http://112.19.214.90:8883/tsfile/live/0014_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV15音乐
 http://112.19.214.90:8883/tsfile/live/0015_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV16奥林匹克
-http://111.20.33.70/PLTV/88888893/224/3221226921/index.m3u8
+http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8?blog.ntnas.top
 #EXTINF:-1 logo="" group-title="" ,CCTV17农业
 http://112.19.214.90:8883/tsfile/live/0019_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV4K超高清
