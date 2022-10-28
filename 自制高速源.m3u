@@ -37,7 +37,7 @@ http://liveop.cctv.cn/hls/CCTV16HD/playlist.m3u8?blog.ntnas.top
 #EXTINF:-1 logo="" group-title="" ,CCTV17农业
 http://112.19.214.90:8883/tsfile/live/0019_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,CCTV4K超高清
-http://open.live-web.timetv.cn/live03/cctv4k.m3u8
+http://liveop.cctv.cn/hls/4KHD/playlist.m3u8?blog.ntnas.top
 #EXTINF:-1 logo="" group-title="" ,东方卫视
 http://112.19.214.90:8883/tsfile/live/0107_1.m3u8
 #EXTINF:-1 logo="" group-title="" ,贵州卫视
