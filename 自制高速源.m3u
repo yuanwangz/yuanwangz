@@ -100,11 +100,11 @@ http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="港澳台",民视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
 #EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="电影",CHC家庭影院
-http://111.20.33.93/PLTV/88888893/224/3221226462/index.m3u8
+http://125.40.191.58:9901/tsfile/live/1001_1.m3u8?blog.ntnas.top
 #EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="电影",CHC动作电影
-http://111.20.33.93/PLTV/88888893/224/3221226465/index.m3u8
+http://125.40.191.58:9901/tsfile/live/1002_1.m3u8?blog.ntnas.top
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="电影",CHC高清电影
-http://111.20.33.93/PLTV/88888893/224/3221226463/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/CHCHD_6000.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",警匪系列
 http://txtest-xp2p.p2p.huya.com/src/1449581589-1449581589-6225905517638713344-3048959636-10057-A-0-1.xs
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="电影",古装武侠
@@ -142,7 +142,7 @@ http://39.134.32.102:6610/270000001111/1110000327/index.m3u8?IASHttpSessionId=OT
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="未分类",索尼+少儿动画
 https://livecdn.fptplay.net/hda3/animaxport_2000.stream/.m3u8?zgangd
 #EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="上海",欢笑剧场4K
-http://111.20.33.93/PLTV/88888893/224/3221226582/index.m3u8
+http://183.207.255.188/live/program/live/hxjchd/4000000/mnf.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方台",黔西南综合
 http://live2.qxndt.com/zhpd/sd/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="贵州地方台",黔西南公共
