@@ -121,12 +121,76 @@ http://23.237.10.66:16106
 http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 #EXTINF:-1 tvg-id="7122" tvg-name="有线新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/youxianxinwen.png" group-title="港澳台",香港有线新闻台
 http://61.10.2.140/live_freedirect/freehd209_h.live/chunklist_w135209556.m3u8
-#EXTINF:-1 tvg-id="131" tvg-name="TVB星河频道" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVB星河.png" group-title="港澳台",TVB星河
-http://113.64.147.51:808/hls/135/index.m3u8
 #EXTINF:-1 tvg-id="6073" tvg-name="TVBS新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/TVBS新闻.png" group-title="港澳台",TVBS新闻台
 http://38.64.72.148/hls/modn/list/4006/chunklist0.m3u8
 #EXTINF:-1 tvg-id="6071" tvg-name="民视新闻台" tvg-logo="http://epg.51zmt.top:8000/tb1/gt/FTVNews.png" group-title="港澳台",民视新闻台
 http://38.64.72.148:80/hls/modn/list/4013/chunklist0.m3u8
+#EXTINF:-1 ,ABC news
+http://140.238.155.232:9000/jmsytb.m3u8?c=1
+#EXTINF:-1 ,ABC news
+http://140.238.155.232:9000/jmsytb.m3u8?c=2
+#EXTINF:-1 ,半岛电视台
+http://140.238.155.232:9000/jmsytb.m3u8?c=6
+#EXTINF:-1 ,CGTN
+http://140.238.155.232:9000/jmsytb.m3u8?c=7
+#EXTINF:-1 ,NHK World
+http://140.238.155.232:9000/jmsytb.m3u8?c=8
+#EXTINF:-1 ,Top News
+http://140.238.155.232:9000/jmsytb.m3u8?c=9
+#EXTINF:-1 ,Bloomberg
+http://140.238.155.232:9000/jmsytb.m3u8?c=10
+#EXTINF:-1 ,CNA
+http://140.238.155.232:9000/jmsytb.m3u8?c=11
+#EXTINF:-1 ,France 24
+http://140.238.155.232:9000/jmsytb.m3u8?c=13
+#EXTINF:-1 ,kbs Korea
+http://140.238.155.232:9000/jmsytb.m3u8?c=14
+#EXTINF:-1 ,MBC
+http://140.238.155.232:9000/jmsytb.m3u8?c=15
+#EXTINF:-1 ,NASA
+http://140.238.155.232:9000/jmsytb.m3u8?c=16
+#EXTINF:-1 ,NASA
+http://140.238.155.232:9000/jmsytb.m3u8?c=17
+#EXTINF:-1 ,NDTV
+http://140.238.155.232:9000/jmsytb.m3u8?c=19
+#EXTINF:-1 ,CGTN
+http://140.238.155.232:9000/jmsytb.m3u8?c=20
+#EXTINF:-1 ,三立新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=22
+#EXTINF:-1 ,三立
+http://140.238.155.232:9000/jmsytb.m3u8?c=23
+#EXTINF:-1 ,中天新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=24
+#EXTINF:-1 ,中视新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=25
+#EXTINF:-1 ,台视新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=26
+#EXTINF:-1 ,寰宇新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=27
+#EXTINF:-1 ,TVBS HD
+http://140.238.155.232:9000/jmsytb.m3u8?c=29
+#EXTINF:-1 ,今日亚洲
+http://140.238.155.232:9000/jmsytb.m3u8?c=30
+#EXTINF:-1 ,TVBS新闻台
+http://140.238.155.232:9000/jmsytb.m3u8?c=31
+#EXTINF:-1 ,东森财经新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=35
+#EXTINF:-1 ,东森财经新闻
+http://140.238.155.232:9000/jmsytb.m3u8?c=36
+#EXTINF:-1 ,镜新闻Mnews
+http://140.238.155.232:9000/jmsytb.m3u8?c=38
+#EXTINF:-1 ,LIVECAM
+http://140.238.155.232:9000/jmsytb.m3u8?c=41
+#EXTINF:-1 ,LIVECAM2
+http://140.238.155.232:9000/jmsytb.m3u8?c=42
+#EXTINF:-1 ,LIVECAM3
+http://140.238.155.232:9000/jmsytb.m3u8?c=43
+#EXTINF:-1 ,LIVECAM9
+http://140.238.155.232:9000/jmsytb.m3u8?c=49
+#EXTINF:-1 ,ONE WORLD RADIO
+http://140.238.155.232:9000/jmsytb.m3u8?c=51
+#EXTINF:-1 ,MUSIC REGI FLIH FALLING
+http://140.238.155.232:9000/jmsytb.m3u8?c=53
 #EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="电影",CHC家庭影院
 http://125.40.191.58:9901/tsfile/live/1001_1.m3u8?blog.ntnas.top
 #EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="电影",CHC动作电影
