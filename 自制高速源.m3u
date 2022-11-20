@@ -42,35 +42,35 @@ http://hls.yun.gehua.net.cn:8088/live/DongFangHD_6000.m3u8
 #EXTINF:-1 tvg-id="44" tvg-name="贵州卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guizhou.png" group-title="卫视",贵州卫视
 http://112.19.214.90:8883/tsfile/live/0120_1.m3u8
 #EXTINF:-1 tvg-id="30" tvg-name="北京卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijing.png" group-title="卫视",北京卫视
-http://60.10.167.88:808/hls/21/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/BTV1HD_6000.m3u8
 #EXTINF:-1 tvg-id="56" tvg-name="四川卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/sichuan.png" group-title="卫视",四川卫视
-http://60.10.167.88:808/hls/31/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/SiChuan_2000.m3u8
 #EXTINF:-1 tvg-id="33" tvg-name="广东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangdong.png" group-title="卫视",广东卫视
-http://60.10.167.88:808/hls/25/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/GuangDongHD_6000.m3u8
 #EXTINF:-1 tvg-id="43" tvg-name="广西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/guangxi.png" group-title="卫视",广西卫视
-http://60.10.167.88:808/hls/35/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/GuangXi_2000.m3u8
 #EXTINF:-1 tvg-id="28" tvg-name="浙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/zhejiang.png" group-title="卫视",浙江卫视
-http://60.10.167.88:808/hls/26/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/ZheJiangHD_6000.m3u8
 #EXTINF:-1 tvg-id="34" tvg-name="深圳卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shenzhen.png" group-title="卫视",深圳卫视
-http://60.10.167.88:808/hls/23/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/ShenZhenHD_6000.m3u8
 #EXTINF:-1 tvg-id="29" tvg-name="江苏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangsu.png" group-title="卫视",江苏卫视
 http://hls.yun.gehua.net.cn:8088/live/JiangSuHD_6000.m3u8
 #EXTINF:-1 tvg-id="50" tvg-name="江西卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jiangxi.png" group-title="卫视",江西卫视
 http://hls.yun.gehua.net.cn:8088/live/JiangXiHD_6000.m3u8
 #EXTINF:-1 tvg-id="27" tvg-name="湖南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hunan.png" group-title="卫视",湖南卫视
-http://60.10.167.88:808/hls/19/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/HuNanHD_6000.m3u8
 #EXTINF:-1 tvg-id="38" tvg-name="山东卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shandong.png" group-title="卫视",山东卫视
-http://60.10.167.88:808/hls/24/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/ShanDongHD_6000.m3u8
 #EXTINF:-1 tvg-id="48" tvg-name="湖北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hubei.png" group-title="卫视",湖北卫视
-http://60.10.167.88:808/hls/30/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/HuBeiHD_6000.m3u8
 #EXTINF:-1 tvg-id="45" tvg-name="河北卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/hebei.png" group-title="卫视",河北卫视
 http://hls.yun.gehua.net.cn:8088/live/HeBeiHD_6000.m3u8
 #EXTINF:-1 tvg-id="32" tvg-name="安徽卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/anhui.png" group-title="卫视",安徽卫视
-http://60.10.167.88:808/hls/29/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/AnHuiHD_6000.m3u8
 #EXTINF:-1 tvg-id="39" tvg-name="天津卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/tianjin.png" group-title="卫视",天津卫视
-http://60.10.167.88:808/hls/22/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/TianJinHD_6000.m3u8
 #EXTINF:-1 tvg-id="36" tvg-name="辽宁卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/liaoning.png" group-title="卫视",辽宁卫视
-http://60.10.167.88:808/hls/28/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/LiaoNingHD_1200.m3u8
 #EXTINF:-1 tvg-id="51" tvg-name="吉林卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jilin.png" group-title="卫视",吉林卫视
 http://60.10.167.88:808/hls/36/index.m3u8
 #EXTINF:-1 tvg-id="41" tvg-name="东南卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/dongnan.png" group-title="卫视",东南卫视
@@ -92,7 +92,7 @@ http://60.10.167.88:808/hls/48/index.m3u8
 #EXTINF:-1 tvg-id="59" tvg-name="青海卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/qinghai.png" group-title="卫视",青海卫视
 http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=f35a89681647856030
 #EXTINF:-1 tvg-id="40" tvg-name="重庆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/chongqing.png" group-title="卫视",重庆卫视
-http://60.10.167.88:808/hls/33/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/ChongQing_2000.m3u8
 #EXTINF:-1 tvg-id="37" tvg-name="旅游卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/lvyou.png" group-title="卫视",海南卫视
 http://112.19.214.90:8883/tsfile/live/1000_1.m3u8
 #EXTINF:-1 tvg-id="57" tvg-name="新疆卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xinjiang.png" group-title="卫视",新疆卫视
@@ -102,7 +102,7 @@ http://112.19.214.90:8883/tsfile/live/0119_1.m3u8
 #EXTINF:-1 tvg-id="71" tvg-name="西藏卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/xizang.png" group-title="卫视",西藏卫视
 http://121.51.249.6/4403-tx.otvstream.otvcloud.com/otv/skcc/live/channel66/1300.m3u8
 #EXTINF:-1 tvg-id="46" tvg-name="黑龙江卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/heilongjiang.png" group-title="卫视",黑龙江卫视
-http://60.10.167.88:808/hls/27/index.m3u8
+http://hls.yun.gehua.net.cn:8088/live/HeiLongJiangHD_6000.m3u8
 #EXTINF:-1 tvg-id="70" tvg-name="康巴卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/kangba.png" group-title="卫视",康巴卫视
 http://112.19.214.90:8883/tsfile/live/1010_1.m3u8
 #EXTINF:-1 tvg-id="63" tvg-name="延边卫视" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/YANBIAN1.png" group-title="卫视",延边卫视
