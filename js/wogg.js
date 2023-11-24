@@ -2,7 +2,7 @@ var rule={
     title:'玩偶哥哥',
     模板:'AlistShare',
     host:'https://wogg.link',
-    url:'/index.php/vodshow/fyclass--hits------fypage---.html',
+    url:'/index.php/vodshow/fyclass--------fypage---.html',
     filterable:0,//是否启用分类筛选,
     filter_url:'',
     filter: {},
