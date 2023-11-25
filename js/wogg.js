@@ -2,7 +2,7 @@ var rule={
     title:'玩偶哥哥',
     模板:'AlistShare',
     host:'https://wogg.link',
-    url:'/index.php/vodshow/fyclass--------fypage---.html',
+    url:'/index.php/vodshow/fyclass--hits------fypage---.html',
     filterable:0,//是否启用分类筛选,
     filter_url:'',
     filter: {},
@@ -18,5 +18,5 @@ var rule={
         "desc": ".module-row-title&&p&&Text;.video-info-main&&.video-info-item:eq(2) a&&Text;.video-info-aux a:eq(3)&&Text;.video-info-main&&.video-info-item:eq(1)&&Text;.video-info-main&&.video-info-item:eq(0)&&Text",
         "content": ".sqjj_a&&Text",
     },
-    搜索:'.module-items;h3&&Text;*;.video-serial&&Text;.video-info-header&&h3&&a&&href',
+    搜索:'.module-search-item;h3&&Text;*;.video-serial&&Text;.video-info-header&&h3&&a&&href',
 }
