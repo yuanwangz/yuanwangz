@@ -119,7 +119,7 @@ input = panPlay(input,playObj.flag)
 					if (vodId.includes('quark.cn')) {
 					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
                         let regex = /https:\\/\\/pan.quark.cn\\/s\\/(\\w+)[\\?]?/;
-                        let match = vodId.match(regex);
+                        let match = regex.exec(vodId);
                         let pwd_id = match[1];
                         
                         url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
@@ -179,7 +179,7 @@ input = panPlay(input,playObj.flag)
 					if (vodId.includes('quark.cn')) {
 					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
                         let regex = /https:\\/\\/pan.quark.cn\\/s\\/(\\w+)[\\?]?/;
-                        let match = vodId.match(regex);
+                        let match = regex.exec(vodId);
                         let pwd_id = match[1];
                         
                         url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
