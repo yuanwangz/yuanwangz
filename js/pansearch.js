@@ -94,7 +94,7 @@ input = panPlay(input,playObj.flag)
 					let vodId = pdfh(line, 'a&&href');
 					if (!vodId) continue;
 					if (!vodId.includes('alipan.com') && !vodId.includes('quark.cn') && !vodId.includes('aliyundrive.com')) continue;
-					if (vodId.includes('alipan.com') or vodId.includes('aliyundrive.com')) {
+					if (vodId.includes('alipan.com') || vodId.includes('aliyundrive.com')) {
 					    const url = "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous";
                         let share_id = vodId.substring(30);
                         let headers = {
@@ -106,13 +106,9 @@ input = panPlay(input,playObj.flag)
                         };
                         let data = JSON.stringify(params);
                         
-                        try {
-                          let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                          let resp = JSON.parse(html);
-                          if ("code" in resp) {
-                            continue;
-                          }
-                        } catch (err) {
+                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+                        let resp = JSON.parse(html);
+                        if ("code" in resp) {
                           continue;
                         }
 					}
@@ -133,13 +129,9 @@ input = panPlay(input,playObj.flag)
                         
                         let data = JSON.stringify(params);
                         
-                        try {
-                          let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                          let resp = JSON.parse(html);
-                          if ("code" in resp && resp.code !== 0) {
-                            continue;
-                          }
-                        } catch (err) {
+                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+                        let resp = JSON.parse(html);
+                        if ("code" in resp && resp.code !== 0) {
                           continue;
                         }
 					}
@@ -154,7 +146,7 @@ input = panPlay(input,playObj.flag)
 				let vodId = pdfh(content, 'a&&href');
 				const vodName = splitList[0].replaceAll(/<\\\\?[^>]+>/g, "").replace("名称：", "").replace("资源标题：", "");
 				if (!vodId) continue;
-				if (vodId.includes('alipan.com') or vodId.includes('aliyundrive.com')) {
+				if (vodId.includes('alipan.com') || vodId.includes('aliyundrive.com')) {
 					    const url = "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous";
                         let share_id = vodId.substring(30);
                         let headers = {
@@ -166,13 +158,9 @@ input = panPlay(input,playObj.flag)
                         };
                         let data = JSON.stringify(params);
                         
-                        try {
-                          let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                          let resp = JSON.parse(html);
-                          if ("code" in resp) {
-                            continue;
-                          }
-                        } catch (err) {
+                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+                        let resp = JSON.parse(html);
+                        if ("code" in resp) {
                           continue;
                         }
 					}
@@ -192,14 +180,9 @@ input = panPlay(input,playObj.flag)
                         };
                         
                         let data = JSON.stringify(params);
-                        
-                        try {
-                          let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                          let resp = JSON.parse(html);
-                          if ("code" in resp && resp.code !== 0) {
-                            continue;
-                          }
-                        } catch (err) {
+                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+                        let resp = JSON.parse(html);
+                        if ("code" in resp && resp.code !== 0) {
                           continue;
                         }
 					}
