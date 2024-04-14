@@ -106,11 +106,17 @@ input = panPlay(input,playObj.flag)
                         };
                         let data = JSON.stringify(params);
                         
-                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                        let resp = JSON.parse(html);
-                        if ("code" in resp) {
-                          continue;
-                        }
+                        fetch(url, {
+                            method: 'POST',
+                            headers: headers,
+                            body: data
+                        }).then(response => response.json())
+                            .then(resp => {
+                                console.log(resp)
+                                if ("code" in resp) {
+                                    continue;
+                                }
+                            }).catch(error => console.error('Error:', error));
 					}
 					if (vodId.includes('quark.cn')) {
 					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
@@ -129,11 +135,17 @@ input = panPlay(input,playObj.flag)
                         
                         let data = JSON.stringify(params);
                         
-                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                        let resp = JSON.parse(html);
-                        if ("code" in resp && resp.code !== 0) {
-                          continue;
-                        }
+                        fetch(url, {
+                            method: 'POST',
+                            headers: headers,
+                            body: data
+                        }).then(response => response.json())
+                            .then(resp => {
+                                console.log(resp)
+                                if ("code" in resp && resp.code !== 0) {
+                                    continue;
+                                }
+                            }).catch(error => console.error('Error:', error));
 					}
 					videos.push({
 						vod_id: vodId,
@@ -158,11 +170,17 @@ input = panPlay(input,playObj.flag)
                         };
                         let data = JSON.stringify(params);
                         
-                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                        let resp = JSON.parse(html);
-                        if ("code" in resp) {
-                          continue;
-                        }
+                        fetch(url, {
+                            method: 'POST',
+                            headers: headers,
+                            body: data
+                        }).then(response => response.json())
+                            .then(resp => {
+                                console.log(resp)
+                                if ("code" in resp) {
+                                    continue;
+                                }
+                            }).catch(error => console.error('Error:', error));
 					}
 					if (vodId.includes('quark.cn')) {
 					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
@@ -180,11 +198,17 @@ input = panPlay(input,playObj.flag)
                         };
                         
                         let data = JSON.stringify(params);
-                        let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
-                        let resp = JSON.parse(html);
-                        if ("code" in resp && resp.code !== 0) {
-                          continue;
-                        }
+                        fetch(url, {
+                            method: 'POST',
+                            headers: headers,
+                            body: data
+                        }).then(response => response.json())
+                            .then(resp => {
+                                console.log(resp)
+                                if ("code" in resp && resp.code !== 0) {
+                                    continue;
+                                }
+                            }).catch(error => console.error('Error:', error));
 					}
 				videos.push({
 					vod_id: vodId,
