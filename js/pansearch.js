@@ -96,56 +96,42 @@ input = panPlay(input,playObj.flag)
 					if (!vodId.includes('alipan.com') && !vodId.includes('quark.cn') && !vodId.includes('aliyundrive.com')) continue;
 					if (vodId.includes('alipan.com') || vodId.includes('aliyundrive.com')) {
 					    const url = "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous";
-                        let share_id = vodId.substring(30);
-                        let headers = {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G9880) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.37 Mobile Safari/537.36",
-                            "Referer": "https://www.aliyundrive.com/"
-                        };
-                        let params = {
-                            "share_id": share_id
-                        };
-                        let data = JSON.stringify(params);
-                        
-                        fetch(url, {
-                            method: 'POST',
-                            headers: headers,
-                            body: data
-                        }).then(response => response.json())
-                            .then(resp => {
-                                console.log(resp)
-                                if ("code" in resp) {
-                                    continue;
-                                }
-                            }).catch(error => console.error('Error:', error));
+					    let share_id = vodId.substring(30);
+					    console.log(share_id)
+					    let headers = {
+					        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G9880) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.37 Mobile Safari/537.36",
+					        "Referer": "https://www.aliyundrive.com/"
+					    };
+					    let params = {
+					        "share_id": share_id
+					    };
+					    let data = JSON.stringify(params);
+					    let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+					    let resp = JSON.parse(html);
+					    if ("code" in resp) {
+					        continue;
+					    }
 					}
 					if (vodId.includes('quark.cn')) {
-					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
-                        let regex = /https:\\/\\/pan.quark.cn\\/s\\/(\\w+)[\\?]?/;
-                        let match = regex.exec(vodId);
-                        let pwd_id = match[1];
-                        
-                        url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
-                        let headers = {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36",
-                            "Referer": "https://pan.quark.cn"
-                        };
-                        let params = {
-                            "pwd_id": pwd_id
-                        };
-                        
-                        let data = JSON.stringify(params);
-                        
-                        fetch(url, {
-                            method: 'POST',
-                            headers: headers,
-                            body: data
-                        }).then(response => response.json())
-                            .then(resp => {
-                                console.log(resp)
-                                if ("code" in resp && resp.code !== 0) {
-                                    continue;
-                                }
-                            }).catch(error => console.error('Error:', error));
+					    let regex = /\/([^\/]+)$/;
+					    let matches = vodId.match(regex);
+					    let pwd_id = matches[1];
+					    console.log(pwd_id)
+					
+					    let url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
+					    let headers = {
+					        "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36",
+					        "Referer": "https://pan.quark.cn"
+					    };
+					    let params = {
+					        "pwd_id": pwd_id
+					    };
+					    let data = JSON.stringify(params);
+					    let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+					    let resp = JSON.parse(html);
+					    if ("code" in resp && resp.code !== 0) {
+					        continue;
+					    }
 					}
 					videos.push({
 						vod_id: vodId,
@@ -159,57 +145,44 @@ input = panPlay(input,playObj.flag)
 				const vodName = splitList[0].replaceAll(/<\\\\?[^>]+>/g, "").replace("名称：", "").replace("资源标题：", "");
 				if (!vodId) continue;
 				if (vodId.includes('alipan.com') || vodId.includes('aliyundrive.com')) {
-					    const url = "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous";
-                        let share_id = vodId.substring(30);
-                        let headers = {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G9880) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.37 Mobile Safari/537.36",
-                            "Referer": "https://www.aliyundrive.com/"
-                        };
-                        let params = {
-                            "share_id": share_id
-                        };
-                        let data = JSON.stringify(params);
-                        
-                        fetch(url, {
-                            method: 'POST',
-                            headers: headers,
-                            body: data
-                        }).then(response => response.json())
-                            .then(resp => {
-                                console.log(resp)
-                                if ("code" in resp) {
-                                    continue;
-                                }
-                            }).catch(error => console.error('Error:', error));
-					}
-					if (vodId.includes('quark.cn')) {
-					    let url = "https://pan.quark.cn/s/(\\w+)[\\?]?";
-                        let regex = /https:\\/\\/pan.quark.cn\\/s\\/(\\w+)[\\?]?/;
-                        let match = regex.exec(vodId);
-                        let pwd_id = match[1];
-                        
-                        url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
-                        let headers = {
-                            "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36",
-                            "Referer": "https://pan.quark.cn"
-                        };
-                        let params = {
-                            "pwd_id": pwd_id
-                        };
-                        
-                        let data = JSON.stringify(params);
-                        fetch(url, {
-                            method: 'POST',
-                            headers: headers,
-                            body: data
-                        }).then(response => response.json())
-                            .then(resp => {
-                                console.log(resp)
-                                if ("code" in resp && resp.code !== 0) {
-                                    continue;
-                                }
-                            }).catch(error => console.error('Error:', error));
-					}
+				    const url = "https://api.aliyundrive.com/adrive/v3/share_link/get_share_by_anonymous";
+				    let share_id = vodId.substring(30);
+				    console.log(share_id)
+				    let headers = {
+				        "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-G9880) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.37 Mobile Safari/537.36",
+				        "Referer": "https://www.aliyundrive.com/"
+				    };
+				    let params = {
+				        "share_id": share_id
+				    };
+				    let data = JSON.stringify(params);
+				    let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+				    let resp = JSON.parse(html);
+				    if ("code" in resp) {
+				        continue;
+				    }
+				}
+				if (vodId.includes('quark.cn')) {
+				    let regex = /\/([^\/]+)$/;
+				    let matches = vodId.match(regex);
+				    let pwd_id = matches[1];
+				    console.log(pwd_id)
+				
+				    let url = "https://pan.quark.cn/1/clouddrive/share/sharepage/token?pr=ucpro&fr=h5";
+				    let headers = {
+				        "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.162 Mobile Safari/537.36",
+				        "Referer": "https://pan.quark.cn"
+				    };
+				    let params = {
+				        "pwd_id": pwd_id
+				    };
+				    let data = JSON.stringify(params);
+				    let html = request(url, {headers: headers, body: data, method: 'POST'}, true);
+				    let resp = JSON.parse(html);
+				    if ("code" in resp && resp.code !== 0) {
+				        continue;
+				    }
+				}
 				videos.push({
 					vod_id: vodId,
 					vod_name: vodName,
